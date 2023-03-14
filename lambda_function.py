@@ -4,5 +4,5 @@ def lambda_handler(event, context):
     # TODO implement
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello CI/CD Pipeline')
+        'body': json.dumps('CI/CD Pipeline from Code Build!!')
     }
